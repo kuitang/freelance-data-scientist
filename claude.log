@@ -1,0 +1,23 @@
+386 | `+await Z.crypto.sha256DigestHex(I),w=await Nr9(Z.crypto,Z.securityCredentials.secretAccessKey,D,Z.region,Y),N=await h50(Z.crypto,w,q),M=`${amG} Credential=${Z.securityCredentials.accessKeyId}/${z}, SignedHeaders=${K}, Signature=${omG.fromArrayBufferToHex(N)}`;return{amzDate:J.date?void 0:B,authorizationHeader:M,canonicalQuerystring:Z.canonicalQuerystring}}});var YcG=C((Ni)=>{var HM=Ni&&Ni.__classPrivateFieldGet||function(Z,G,W,Y){if(W==="a"&&!Y)throw new TypeError("Private accessor was defined without a getter");if(typeof G==="function"?Z!==G||!Y:!G.has(Z))throw new TypeError("Cannot read private member from an object whose class did not declare it");return W==="m"?Y:W==="a"?Y.call(Z):Y?Y.value:G.get(Z)},pA,j21,ZcG,GcG,IE0,v21;Object.defineProperty(Ni,"__esModule",{value:!0});Ni.DefaultAwsSecurityCredentialsSupplier=void 0;class WcG{constructor(Z){pA.add(this),this.regionUrl=Z.regionUrl,this.securityCredentialsUrl=Z.securityCredentialsUrl,this.imdsV2SessionTokenUrl=Z.imdsV2SessionTokenUrl,this.additionalGaxi
+387 | To learn more about authentication and Google APIs, visit:
+388 | https://cloud.google.com/docs/authentication/getting-started`,NO_CREDENTIALS_FOUND:`Unable to find credentials in current environment.
+389 | To learn more about authentication and Google APIs, visit:
+390 | https://cloud.google.com/docs/authentication/getting-started`,NO_ADC_FOUND:"Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.",NO_UNIVERSE_DOMAIN_FOUND:`Unable to detect a Universe Domain in the current environment.
+391 | https://cloud.google.com/compute/docs/metadata/predefined-metadata-keys`};class e21{get isGCE(){return this.checkIsGCE}constructor(Z={}){if(u_.add(this),this.checkIsGCE=void 0,this.jsonContent=null,this.cachedCredential=null,Oi.set(this,null),this.clientOptions={},this._cachedProjectId=Z.projectId||null,this.cachedCredential=Z.authClient||null,this.keyFilename=Z.keyFilename||Z.keyFile,this.scopes=Z.scopes,this.clientOptions=Z.clientOptions||{},this.jsonContent=Z.credentials||null,this.apiKey=Z.apiKey||this.clientOptions.apiKey||null,this.apiKey&&(this.jsonContent||this.clientOptions.credentials))throw new RangeError(VQ.GoogleAuthExceptionMessages.API_KEY_WITH_CREDENTIALS);if(Z.universeDomain)this.clientOptions.universeDomain=Z.universeDomain}setGapicJWTValues(Z){Z.defaultServicePath=this.defaultServicePath,Z.useJWTAccessWithScope=this.useJWTAccessWithScope,Z.defaultScopes=this.defaultScopes}getProjectId(Z){if(Z)this.getProjectIdAsync().then((G)=>Z(null,G),Z);else return this.getProjectIdAsync()}async getProje
+
+SystemError: kill() failed: EPERM: Operation not permitted
+ syscall: "kill",
+   errno: 1,
+    code: "EPERM"
+
+      at _lG (/$bunfs/root/claude:391:19786)
+      at <anonymous> (/$bunfs/root/claude:391:19658)
+      at forEach (1:11)
+      at <anonymous> (/$bunfs/root/claude:391:19633)
+      at forEach (1:11)
+      at SlG (/$bunfs/root/claude:391:19605)
+      at <anonymous> (/$bunfs/root/claude:391:19532)
+      at J (/$bunfs/root/claude:391:20015)
+      at emit (node:events:98:22)
+
+Bun v1.2.19 (Linux x64 baseline)
