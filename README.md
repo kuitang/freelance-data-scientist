@@ -1,4 +1,6 @@
 # Experiments in Claude
+[Results](https://github.com/kuitang/freelance-data-scientist/blob/main/palmer_penguins_analysis_report.md)
+
 I haved been trying to build an automatic data science agent, and I saw [this article](https://dwyer.co.za/static/claude-code-is-all-you-need.html) by a Gareth and was tempted to adopt it to fit my needs.
 
 Instead of a "startup", I made it take a more moderate task of finding a dataset and analyzing it. The whole thing in under 20 minutes if you can believe.
